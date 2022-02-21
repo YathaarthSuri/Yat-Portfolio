@@ -39,6 +39,7 @@
 
         &.open{
             transform: rotate(720deg);
+            z-index: 1;
             background: transparent;
 
             &::before{

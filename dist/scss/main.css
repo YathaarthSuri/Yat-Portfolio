@@ -13,8 +13,8 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.2))), url(../images/my-photo.jpg) center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.2)), url(../images/my-photo.jpg) center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.2))), url(../images/model.jpg) center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.2)), url(../images/model.jpg) center top;
   background-size: cover;
 }
 
@@ -78,6 +78,7 @@
 .menu-btn-burger.open {
   -webkit-transform: rotate(720deg);
           transform: rotate(720deg);
+  z-index: 1;
   background: transparent;
 }
 
